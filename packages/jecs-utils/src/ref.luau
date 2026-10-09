@@ -2,7 +2,8 @@
 local jecs = require(script.Parent.Parent.jecs)
 local refs: { [any]: any } = {}
 
-local set_world = (nil :: any) :: jecs.World
+local TS = require(game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("RuntimeLib"))
+local set_world = TS.import(script, game:GetService("ReplicatedStorage"), "TS", "world").default
 
 --- Gets an entity the given key references to.
 --- If the key is nil, an entirely new entity is created and returned.
