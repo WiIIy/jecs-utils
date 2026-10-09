@@ -20,8 +20,8 @@
 		"url": "git+https://github.com/PepeElToro41/jecs-utils.git"
 	},
 	"scripts": {
-		"prepare": "cp ../../LICENSE.md .",
-		"publish:wally": "pnpm run prepare && wally publish"
+		"build": "rbxtsc",
+  		"watch": "rbxtsc -w"
 	},
 	"peerDependencies": {
 		"@rbxts/jecs": "^0.11.0"
