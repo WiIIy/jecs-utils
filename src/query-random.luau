@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.Parent["@rbxts"].jecs.src.jecs)
+local jecs = require(script.Parent.Parent.Parent["@rbxts"].jecs.src.jecs)
 
 --- Fast way to get a random entity from the query. This also returns its component values.
 --- @param query: the query to get a random entity from

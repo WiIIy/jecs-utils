@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.Parent["@rbxts"].jecs.src.jecs)
+local jecs = require(script.Parent.Parent.Parent["@rbxts"].jecs.src.jecs)
 
 --- Fast way to count the number of entities that match the query.
 --- @param query: the query to count entities from

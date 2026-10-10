@@ -1,6 +1,6 @@
 {
 	"name": "@willy/jecs-utils",
-	"version": "1.4.4",
+	"version": "1.4.5",
 	"description": "Utilities for Jecs.",
 	"license": "MIT",
 	"main": "src/init.luau",
