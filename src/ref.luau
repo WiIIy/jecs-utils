@@ -1,5 +1,5 @@
 --!optimize 2
-local jecs = require(script.Parent.Parent.jecs)
+local jecs = require(script.Parent.Parent["@rbxts"].jecs.src.jecs)
 local refs: { [any]: any } = {}
 
 local TS = require(game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("RuntimeLib"))

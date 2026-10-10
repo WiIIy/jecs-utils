@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.Parent.jecs)
+local jecs = require(script.Parent.Parent["@rbxts"].jecs.src.jecs)
 local observers = require(script.Parent.observers)
 
 --- Creates an iterator with all the entities where their entity components have changed.
