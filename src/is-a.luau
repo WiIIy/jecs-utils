@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 local NONE = nil :: any
 
 local is_a = {

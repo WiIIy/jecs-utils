@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 
 --- Fast way to gather all entities that match the query into an array.
 --- @param query: the query to get entities from

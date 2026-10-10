@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 
 --- Returns the first entity in the query.
 --- @param query: the query to get the first entity from

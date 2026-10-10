@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 
 type World = jecs.World
 type Query<T...> = jecs.Query<T...>

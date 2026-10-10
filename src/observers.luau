@@ -1,5 +1,5 @@
 --!strict
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 local common = require(script.Parent.common)
 
 type World = jecs.World

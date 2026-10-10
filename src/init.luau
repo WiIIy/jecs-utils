@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.jecs)
+local jecs = require(script.Parent.Parent.jecs)
 
 local query_first = require(script["query-first"])
 local query_count = require(script["query-count"])
