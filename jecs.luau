@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.Parent["@rbxts"].jecs.src.jecs)
+local jecs = require(script.Parent.Parent.Parent["@rbxts"].jecs.src.jecs)
 
 export type Entity<T = any> = jecs.Entity<T>
 export type Query<T...> = jecs.Query<T...>

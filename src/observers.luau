@@ -1,5 +1,5 @@
 --!strict
-local jecs = require(script.Parent.Parent.Parent["@rbxts"].jecs.src.jecs)
+local jecs = require(script.Parent.jecs)
 local common = require(script.Parent.common)
 
 type World = jecs.World

@@ -1,4 +1,4 @@
-local jecs = require(script.Parent.Parent.Parent["@rbxts"].jecs.src.jecs)
+local jecs = require(script.Parent.jecs)
 local observers = require(script.Parent.observers)
 
 --- Creates iterators tracking entities that entered or left a query's match.
